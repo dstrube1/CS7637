@@ -1,0 +1,182 @@
+Q1
+Consider the logical expression X & (!Y | Z). Which of the following set of values for X, Y, & Z would this expression resolve to true:
+A: X = T, Y = T, Z = T
+B: X = T, Y = F, Z = T
+C: X = F, Y = T, Z = T
+D: X = T, Y = T, Z = F
+E: X = F, Y = F, Z = F
+B
+
+Q2
+A: Formal logic is a language through which plans can be written and evaluated
+B: Partial order planning aims to plan for uncertainty by constructing only partial plans based on current knowledge
+C: In planning algorithms, operators are automatically executed whenever their preconditions are met
+D: In planning algorithms, states may be specified in formal logic
+E: Partial order planning operates by devising separate plans for each goal then detecting conflicts in those plans to prioritize the goals
+ABDE
+
+Q3
+A: A thematic role system may specified with frame representation
+B: Every thematic role system has the same categories including agent, verb, and target
+C: Ambiguity in thematic role systems may be resolved by prior knowledge
+D: Thematic role systems operate exclusively bottom up
+E: Prepositions may have ambiguous meanings in sentences but nouns and verbs have a single meaning each
+AD
+
+Q4
+A: Actions frames are defined first and foremost by the agent executing the action
+B: There exists a primitive classification of types of state changes similar to the classification of primitive actions
+C: There exists a defined, prescribed, and finite number of primitive actions to use in action frames
+D: There exists a defined, prescribed, and finite number of primitive objects to use in action frames
+E: There exists a defined, prescribed, and finite number of primitive agents to use in action frames
+AC
+
+Q5
+A: Action frames may cause state changes
+B: Action frames may cause other action frames
+C: Action frames must have results specified by either follow actions or state changes
+D: Instead of having a primitive action, an action frame instead may be comprised of sub-actions
+E: Sub-actions are defined by separate, more limited set of primitive actions
+ABDE
+
+Q6
+A: Scripts are a case based reasoning approach to acting the world
+B: Scripts allow agents to generate expectations about what comes next in a coherent series of events
+C: Scripts allow agents to infer what may have happened between two events
+D: Scripts allow agents to differentiate between similar events that occur in different situations 
+E: Events in a script may or may not be linked causally
+BD
+
+Q7
+A: In an explanation based learning, the agent is given a new concept and an explanation of the concept and uses the explanation to classify the concept according to its existing hierarchy
+B: Agents engaged in explanation based reasoning do not learn new concepts but rather learn new connections among concepts they already know
+C: Explanation based reasoning is useful to facilitate the improvisational thinking whereby an agent can discern new uses for existing concepts
+D: A major drawback of explanation based reasoning is that agents need a massive amount of prior knowledge to stumble upon the occasional interesting connection
+E: A major benefit of explanation based reasoning is that agents may explain not only their conclusion but how they came to their conclusion
+ACE
+
+Q8
+A: Analogical reasoning is concerned with both objects and the relationships among those objects
+B: In evaluating the usefulness of an analogy, there is only one dimension of similarity we use: similarity of features
+C: Where case based reasoning typically only transfers solutions between cases with similar objects, analogical reasoning needs only their relationships to be similar
+D: Case based reasoning can be thought of as an in domain (not cross domain) analogical reasoning
+E: Case based reasoning differs from analogical reasoning in that it requires an additional phase of mapping between cases and transferring solutions, whereas analogical reasoning requires only a more straightforward adaptation
+AC
+
+Q9
+A: Superficial similarity involves relationships among objects while deep similarity involves relationships among relationships
+B: Superficial and deep similarity exist on a spectrum. In order for two problems to be deeply similar, they must not be superficially similar
+C: Deep similarities tend to arise from higher order relationships
+D: In order to have an effective mapping between problems, you must first have an effective transfer of solutions between them
+E: Structural similarity allows us to transfer explanations, even in the absence of goals to achieve or problems to solve
+ABC
+
+Q10
+A: Biomimicry is the study of how nonhuman animals mimic one another in way that can be viewed as analogical reasoning
+B: Compound analogies involve using multiple analogies at once to solve a problem
+C: Analogical reasoning can proceed in loops. The result of a transfer may make new mappings clearer which may inform additional transfer which may demand more retrieval, and so on
+D: A major milestone in analogical reasoning was the development of a universal vocabulary to describe problems across domains with similar terms
+E: Analogies are central to human reasoning
+BCE
+
+Q11
+Which is correctly defined:
+A: Semantic similarity: Similarity of the words or grammar used to describe the problems
+B: Pragmatic similarity: Any type of similarity between problems that is useful to draw  relationships between them
+C: Structural similarity: Similarity between the structures used to represent the problems or concepts
+D: Analogical mapping: Mapping the overall space of analogies used to explain a particular topic
+E: Analogical transfer: Applying the solution from one problem to another problem from a different domain after relationships between the problems have been established
+BCD
+
+Q12
+Which of the following is a correct way to complete this sentence: One difference between version spaces and incremental concept learning is that:
+A: Version spaces receives the entire space of examples at once whereas incremental concept learning receives them one by one
+B: Incremental concept learning relies on a smart teacher positioning examples in a good order while version spaces does not
+C: Incremental concept learning maintains one model that is refined over time while version spaces maintains two models that converge
+D: Incremental concept learning uses concepts while version spaces uses models
+E: Incremental concept learning specializes when it encounters a negative example while version spaces generalizes
+ABC
+
+Q13
+Which of the following lines describing the version spaces algorithm is written correctly
+A: Generalize all specific models to include a new positive example
+B: Prune away general models that cannot include a negative example
+C: Specialize all specific models to include a new negative example
+D: Prune away specific models that cannot include a new positive example
+E: Prune away models subsumed by other models
+ADE
+
+Q14
+A: Whereas discrimination trees in case based reasoning required all the examples up front, classification trees can handle receiving one example at a time
+B: Whereas discrimination trees in case based reasoning offers some guarantee of optimality, classification trees do not
+C: A classification tree operates by first finding what feature grants the most discriminability amongst possible results
+D: Whereas classification trees must be binary trees, decision trees in case based reasoning can have more than 3 children for each node
+E: Whereas classification trees are only useful for prototypical concepts,discrimination trees in case based reasoning can be used for exemplar concepts
+DE
+
+Q15
+A: Constraint propagation is a narrow reasoning technique specific to language processing
+B: Constraint propagation is concerned with whether sentences make semantic sense, not grammatical sense
+C: Constraint propagation assigns values to variables characterizing a problem to satisfy certain conditions
+D: Constraint propagation explains puns as multiple meanings of the same sentence that fulfil the same constraints
+E: While constraint propagation as presented in the lectures assesses sentence structure, it does not access sentence content
+ACE
+
+Q16
+A: Design is characterized in large part by problem evolution. A problem evolves as the solution evolves
+B: The major difference between configuration and design is that configuration is a non creative task while design is a creative task
+C: Configuration is a design task where variables are given values to certain rules
+D: An abstraction hierarchy is used in configuration to break high level configuration tasks into lower level configuration tasks
+E: Design, according to some people, is the cognitive task with the most economic value
+BDE
+
+Q17
+Which of the following could be examples of configuration tasks as defined by our course material
+A: Selecting the settings to use while taking a picture
+B: Determining the arrangement of seats, emergency exits, overhead bins, and so on for a new plane
+C: Determining a route to work based on your knowledge of roads and traffic patterns
+D: Modifying a recipe to match one's unique tastes
+E: Inventing a new robot that can walk on water
+ABD
+
+Q18
+Which of the following terms with regards to diagnosis is correctly defined
+A: Parsimony: explanations with fewer hypotheses should be preferred over explanations requiring more hypotheses
+B: Coverage: hypotheses must cover as many of the observed data points as possible
+C: Cancellation: multiple hypotheses may be observed canceling each other out
+D: Deduction: a data point that reduced the likelihood that a particular hypothesis ought to be accepted
+E: Abduction: the appropriation an analogical transfer of explanation in one domain to another domain
+ABE
+
+Q19
+A: Inductive reasoning is a straightforward application of modus ponenes
+B: Deductive reasoning is truth preserving
+C: New rules are created or discovered thru abductive reasoning
+D: Abductive reasoning is an application of diagnosis
+E: Deductive reasoning can be difficult because there may be multiple causes of the same effect
+BCE
+
+Q20
+A: In mistake based learning, we train the agent by giving correct and mistake cases instead of positive and negative cases like in other methods
+B: Like version spaces and incremental concept learning, learning by correcting mistakes as presented in this course is incremental
+C: A key feature in mistake based learning is the ability to isolate and explain the cause of the mistake in the first place
+D: While explanation is a ubiquitous AI skill, classification is unique to the knowledge based or cognitive systems school of AI
+E: Learning by correcting mistakes relies on the presence of a human teacher to inform the agent that a mistake has been made
+ABD
+
+Q21
+Which is correctly defined:
+A: Metareasoning: reason about the actual process of reasoning itself
+B: Visuospatial reasoning: Any reasoning about purely non-verbal or non-textual content
+C: Systems thinking: reasoning about systems with numerous interacting parts at multiple levels of abstraction
+D: Design thinking: reasoning over human generated designs (e.g., software, automobiles, buildings, etc) for possible improvements or errors
+E: AI Ethics: Alfred Ichabod Ethics, the original professor of philosophy in artificial intelligence ethics
+BCD
+
+Q22
+A: Visuospatial encodings are analogically mapped to content, while verbal encodings are arbitrarily mapped to content
+B: While approaches similar to mental imagery have long been used in computer science, cognitive science has only recently discovered similar behaviors in real minds
+C: Analogical representation differs from analogical reasoning in that it's specifically concerned with the analogy between the representations and the concepts that the representations encapsulates, not in the transfer of that representation across domains
+D: In structure behavior models, the functions defines what a system does and behavior defines how it accomplishes that function
+E: The current consensus of computational creativity community is that something is creative if it is unexpected, valued, and novel
+BDE

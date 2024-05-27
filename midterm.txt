@@ -1,0 +1,207 @@
+all answers are guess and not yet confirmed
+
+Q1:
+A: AI focuses on solving problems with novel one of a kind patterns
+B: AI agents may be able to solve problems without explaining or justifying their solutions 
+C: The problems that AI aims to solve are inherently deductive in nature
+D: Knowledge in the real world may arrive a little bit at a time, not single large datasets
+E: The world is static but knowledge about the world is dynamic
+A,B,D?
+
+Q2: 
+A: The usefulness of a representation can be ascertained independently of the problem the representation is used to solve
+B: Part of constructing a semantic network is defining a consistent vocabulary to use for the type content we are representing
+C: A good representation disentangles objects and relationships
+D: A good representation excludes those details not necessary for representation's purpose
+E: Because a representation may be constructed separately from the problem it aims to solve, a good representation should include all details that could ever possibly be useful
+A,B,C,D?
+
+Q3:
+A: The quality of a representation can make a problem easier or harder to solve
+B: Smart testers are defined by their ability to outperform other testers on the same set of challenges. Therefore whether a tester is smart will change over time
+C: A smart generator is able to avoid generating candidates solutions that would have been rejected later
+D: A smart tester prunes states that violate some established rules. An even smarter tester would avoid generating those states in the first place
+E: Some advanced algorithms can be seen as expansive applications of the generate and test methodology
+A,B,C,E?
+
+Q4: Imagine you are a graphic designer and a client has asked you to come up with 3 candidate logos for her business. You create 3 logos and send them to her. She replies that she likes two of them and would like you combine those 2. You combine them into a new logo and send it to her. She replies that she likes it. She then sends the logo to her company's legal department to ensure that it isn't too similar to any other logos for copyright purposes. They reply that the logo is indeed unique enough. Which phases of this story respond to the test part of generate and test?
+A: Creating the initial 3 logos
+B: Sending the 3 logos to the client and receiving her response
+C: Creating the revised logo
+D: Sending the revised logo and receiving her response
+E: Sending the final logo to the legal department and receiving their approval
+B,D,E?
+
+Q5:
+A: Means ends analysis evaluates whether some action which will move the current state closer to the goal state
+B: Means ends analysis evaluates whether the negative utility associated with some actions outweighs the positive utility associated with the result of those actions
+C: Means ends analysis may fail when we move further away from a goal state in order to ultimately get closer to it
+D: Means ends analysis operates one step at a time rather than prescribing an overall plan
+E: Means ends analysis may get stuck when the utility associated with the actions is positive but the utility associated with results is negative
+A,B,D,E?
+
+Q6:
+A: Universal AI methods offer universal guarantees of success but as a result are only applicable to small classes of problems
+B: Universal AI methods may be applied to large numbers of problem but in turn may not generate the best or even successful solutions to the problems
+C: Specialized AI methods generally target very specific problems but offer greater guarantees of success in ideal behavior
+D: Generate and test is an example of a universal AI method while means ends analysis is an example of a more specialized AI method
+E: A universal AI method equipped with the ability to learn from its past mistakes will evolve to a more specialized AI method over time
+B,C?
+
+Q7:
+A: Means ends analysis can address problems with both literal distances (e.g., selecting a route to the airport) and figurative distances (e.g., the amount of difference between two states of a problem)
+B: Problem reduction is the process of constructing a representation of a problem that leaves out the extraneous details and unnecessary information
+C: Problem reduction may address the tendency of means ends analysis to get stuck without a distance reducing step
+D: Problem reduction relies on the ability to reduce a problem to smaller subproblems each of which must be address by the same problem solving method
+E: The power of problem reduction as a problem solving method is in how trivial it typically is to break a problem into subproblems
+ABCE?
+
+
+Q8:
+A: One definition of cognitive agent is a function that uses prior perceptions to select a current action
+B: Knowledge and goals provide the content for algorithms, and algorithms in turn provide the architecture for knowledge and goals
+C: The hardware for a cognitive agent could be a brain for biological agents or a components like transistors for artificial agents
+D: Cognitive agent are characterized by their speciality a given algorithm solves. Only one task in a given hardware implementation solves only one algorithm
+E: Cognitive architecture are task oriented. They focus on performing actions but may not know the goal that those actions aim to accomplish
+ACE
+
+Q9: Consider the 3 levels of cognitive architecture: 
+hardware / implementation
+algorithms / symbols
+tasks / knowledge
+Below are different definitions of the same device. Each is labelled with one of the 3 levels of cognitive architecture. Which of these is the label consistent with the definition of the device
+A: Task: a digital camera is a device for capturing visual images of the world and saving them for future viewing or transmission
+B: Hardware: a digital camera is a device that focuses light onto a sensor that converts that light into digital pixels
+C: Algorithm: a digital camera is a device comprised of aperture, light detector, a microcomputer, and a typically a screen and user interface
+D: Algorithm: a car is a large device for moving cargo, typically people and their belongings from one place to another with rapid speeds
+E: Hardware: a car is a device constructed from a set of wheels and tires, typically 4, a chassis, an internal combustion engine or battery powered motor
+BE
+
+Q10:
+A: SOAR is an example of a cognitive architecture targeted at deliberation
+B: SOAR is uniquely cognitive. It does not have provisions for reaction without deliberation
+C: In the SOAR architecture, episodic memory is working memory. It contains information only pertinent to the current situation or episode.
+D: In the SOAR architecture, procedural memory is the knowledge of certain behaviors or processes that can be repeated as needed
+E: In the SOAR architecture, semantic memory is knowledge about abstract models or ideals about the world
+BE
+
+Q11: Imagine you are a student taking a test. Below are 5 approaches you might take to answering a problem based on your knowledge entering the test. Which of the following types of approaches are correctly labelled as relying on procedural, episodic, or semantic memory.
+A: Episodic: Last time I took a test like this, every question had between 1 and 4 correct answers, so this problem probably has between 1 and 4 correct answers
+B: Episodic: Dr Joyner rarely includes 1 or 4 correct answers on a test like this, so there are probably 2 or 3 right answers
+C: Semantic: C is the most common answer on multiple choice tests, so C is probably the correct answer
+D: Procedural: instead of trying to find all correct answers together, go through them one by one and decide if each one is right or wrong
+E: Procedural: one previous tests I've taken with Dr Joyner, there have been slightly more right answers than wrong answers, so there are probably 3 right answers
+ABD
+
+Q12: Frames are similar to object oriented programming. Which of the following are true about the similarities of frames and objects
+A: Like objects, frames may have methods that operate on the values inside the frame
+B: Like objects, frames may refer to each other. A slot in one frame may be filled by another frame
+C: Like objects, frames may have multiple categories for slots, or slots for data, each with unique values
+D: Like objects, frames may exhibit inheritance. One frame may inherit all slots from another frame and add more of its own
+E: Like objects, frames may prescribe default values for slots within the frame
+AB
+
+Q13:
+A: Learning by recording cases is a type of semantic memory
+B: Learning by recording cases thrives under novel circumstances where the case library is not already clogged with prior experiences
+C: Learning by recording cases involves recording a library of experiences, generalizing rules from those experiences, and applying those rules to new problems
+D: When confronted with a new problem, learning by recording cases pulls in sets of the closest and similar problems, averages their solutions, and applies their solutions. It may vary based on the size of the case library
+E: Learning by recording cases is strongest for routine repeated problems, not novel new problems
+CD
+
+Q14: Which of the following is a correctly defined phase of the case based reasoning process
+A: Retrieval: retrieving the problem for a new solution is needed 
+B: Adaptation: modifying the solution to a similar case to match the new problem
+C: Evaluation: applying known heuristics to evaluate the likelihood that the adapted case will address the problem
+D: Execution: executing the adapted case then evaluating the extent to which it actually addresses the problem
+E: Storage: storing the new case and its solution to the case library
+ABCE
+
+Q15:
+A: Case adaption may occur based on semantic knowledge of the world itself
+B: Case adaption may occur by assembling multiple cases that can be seen as subgoals into a new solution that addresses the new problem as a whole
+C: If the adapted solution fails to solve the problem, we must retrieve a different case from which to adapt a new solution
+D: If the adapted solution fails to solve the problem, it should not be stored in the case library
+E: Case based reasoning operates under the assumption that similar problems likely have similar solutions
+ACDE 
+
+Q16:
+A: If a child who had only ever seen red birds were to identify a plane as a bird, it would be committing an overspecialization error
+B: If a child in A were then to be told that planes were not animals, they would need to specialize their model of bird
+C: If a child who had only ever seen red birds were to say that a blue bird is not a bird, it would be committing an overspecialization error
+D: If the child in C were then to be told that blue birds are also birds, they would need to specialize their model of bird
+E: If a child who had only ever seen red birds were to identify a new red bird as a bird, they would be committing an overgeneralization error
+BC
+
+Q17: Imagine we have designed an agent to use incremental concept learning to learn the definition of a parallelogram. So far, we have only shown it a rectangle, a positive example, and so its definition of a parallelogram is a closed shape with 4 sides and two pairs of differing lengths connected by 4 right angles. Now imagine each of the following shapes is presented to the agent's second along with the annotated as to whether it is (+) or isn't (-) a parallelogram. For which examples is the agent's model correctly updated? Assume for each that only the given shape is shown; the agent has not seen the other possible answers
+A: Square (+) generalize: the pairs of sides need not be different lengths
+B: Rhombus (+) specialize: the sides must all be equal lengths
+C: Hexagon (-) generalize: there may be more than 4 sides but every pair of sides must be parallel
+D: Trapezoid (-) specialize: both pairs of opposite sides must be parallel
+E: Non-rhombus parallelogram (+) generalize: the angles need not be right angles
+ACDE
+
+Q18:
+A: Assuming binary percepts, the number of possible combinations of percepts is equivalent to the logarithm of the number of percepts
+B: Classification is necessary because even a relatively small number of binary percepts leads to an intractable number of combinations
+C: Classification assumes that some different combinations of percepts may be collapsed into one shared definition rather than kept as distinct
+D: Classification is an important task in simple environments but more sophisticated methods necessary for complex environments
+E: Classification supports the efficient selection of a proper action based on complex combinations of percepts
+BD
+
+Q19: Which of the following is correctly defined
+A: Equivalence class: a set of possible combinations of percepts that may be mapped to the same internal classification
+B: Concept hierarchy: the spectrum of formality regarding how concretely or mathematically concepts are defined from axiomatic to exemplar
+C: Axiomatic concepts: concepts that may be defined by a set of objective conditions
+D: Prototype concepts: concepts defined by archetypal example of mutable variable
+E: Exemplar concepts: the target or ideal level of formality and objectivity toward which all concept definitions should strive
+ADE
+
+Q20: Which of the following is correctly defined
+A: Soundness: all provable conclusions are valid
+B: Completeness: all valid conclusions are provable
+C: Predicate: the first portion of a formal logic statement prior to the implies operator
+D: Conjunction: the logical AND operator indicating multiple things must be true
+E: Disjunction: the logical OR operator indicating one of multiple things must be true
+ABCD
+
+Q21: Which of the following properties of formal logic is a matching example given. Assume & is AND, | is OR, ~ is NOT, => is implies, and == is equal to
+A: Communative property: X & Y = Y & X
+B: Distributive property: X | (Y & Z) = (X & Y) | (X & Z)
+C: Associative property: X & (Y | Z) = (X & Y) | (X & Z)
+D: De Morgan's Law: ~(X & Y) = ~X | ~ Y
+E: Implication elimination: X => Y = ~X | Y
+ABD
+
+Q22: Which of the following is correctly defined
+A: Modus pones: If it is true that P => Q & and P is true, then Q is true
+B: Modus tollens: If it is true that P => Q and Q is false, then P is false
+C: Modus operandi: If it is true that P => Q, ~P may imply ~Q and Q may not imply P
+D: Universal quantifier: a statement is true for all instances of the variable (e.g., all birds have wings)
+E: Existential quantifier: a statement is true for at least one instance of the variable (e.g., there exists a bird with wings)
+ADE
+
+===
+25.1% correct: The evaluation phase of case-based reasoning involves seeing whether the adapted solution worked after it was performed.
+
+29.0% correct: If an item is erroneously placed into a category into which it does not belong, the definition of the category must be specialized to exclude the item.
+
+35.1% correct: Problem reduction is the process of breaking a big problem down into smaller, more easily solvable problems, which can be solved with different methods which may help avoid getting stuck without a good next step.
+
+38.2% correct: Cases are like episodes in an episodic memory without generalization over the individual episodes.
+
+41.4% correct: If an adapted solution fails, we could try re-adapting it, or we could try retrieving a new case.
+
+46.7% correct: The power of problem reduction is in the ease with which smaller problems can be solved; establishing those smaller problems, however, can be difficult.
+
+47.3% correct: Cases are like episodes in an episodic memory without generalization over the individual episodes.
+
+53.9% correct: A sound logic system is one in which only valid things are provable; a complete logic system is one in which all valid things are provable.
+
+54.3% correct: A good representation will typically unify objects and their relationships while excluding those details we don't need for the problem at hand.
+
+55.5% correct: Means-ends analysis takes candidate states that have been generated and sees if they are closer or further from the goal state than the previous state; it makes no statements regarding the value of the end state.
+
+The lesson with the highest scores overall was L07 with an average score of 92.9%, and the lesson with the worst scores was L08 with an average score of 66.6%.
+===
+Section Scores: L01: 4/5; L03: 3/5; L04: 9/10; L05: 10/15; L06: 11/20; L07: 1/5; L08: 2/5; L09: 5/10; L10: 9/10; L11: 5/10; L12: 10/15; Axiomatic concepts are those concepts that can be defined objectively, and often mathematically.; Classification schemes typically allow an action to be efficiently selected based on the way a concept is classified.; Because means-ends analysis only examines one step at a time, it can be subject to 'local maxima', where in order to reach the goal it is necessary to actually move further from the goal.; A good representation will typically unify objects and their relationships while excluding those details we don't need for the problem at hand.; Although it can also be reactive, the SOAR architecture emphasizes the reasoning or deliberation efforts of a cognitive agent: using knowledge to select behaviors based on rules.; Problem reduction is the process of breaking a big problem down into smaller, more easily solvable problems, which may help avoid getting stuck without a good next step.; Cases are like episodes in an episodic memory without generalization over the individual episodes.; When evaluating the quality of a representation, we have to keep in mind what problem the representation is attempting to help us solve.; Cases are primarily useful in routine, repeated situations.; AI is interested in solving all kinds of problems: small ones, big ones, novel ones, routine ones, inductive ones, deductive ones, abductive ones, etc.; When applying the distributive property, A | (B & C) == (A | B) & (A | C); A predicate is a logic statement including an implies operator.; Classification may be unnecessary in simple environments, but it is crucial in complex environments.; Frames can borrow from other frames; a 'dog' frame, for instance, could borrow from or extend an 'animal' frame.; When we describe a 'smart' generators and testers, we're referring to the extent to which the generator or tester can anticipate whether a generated solution will ultimately work.; Modus Tollens is the reverse execution of an implication: if A implies B and B is false, then A must have been false.; Procedural memory focuses on repeatable actions or behaviors.; Frames are representations of knowledge; frames cannot act, though.; Semantic memory focuses on abstract or general knowledge about the world.; If an adapted solution fails, we could try re-adapting it, or we could try retrieving a new case.; The evaluation phase of case-based reasoning involves seeing whether the adapted solution worked after it was performed.; A hardware-based definition of a device focuses on the parts that make up the device.; Means-ends analysis takes candidate states that have been generated and sees if they are closer or further from the goal state than the previous state; it makes no statements regarding the value of the end state.; Cognitive architectures are almost always goal-oriented.; The storage phase of case-based reasoning involves putting the most recent experience into the library, regardless of whether the adapted solution succeeded or not.; Knowledge is like the content for problem-solving behaviors; problem-solving behaviors provide the structure for knowledge.; Exemplar concepts are concepts defined by examples that exemplify the concept, although other instances of the concept may not resemble the exemplar; for example, 'happiness' could be exemplified by a smiling face, but could also be represented by many other things.; If an item is erroneously placed excluded from category into which it does belong, the definition of the category must be generalized to include the item.; Implication Elimination can be used to transform a statement like 'A implies B' into 'A is False or B is True'.; Episodic memory focuses on remembering specific prior events or experiences.; A conjunction in a logic statement is the equivalent of an 'and', while a disjunction is the equivalent of an 'or'.; A task-based definition of a device focuses on the goal that the device accomplishes.; Adaptation can occur based on the agent's awareness of details of the world or based on combining the results of multiple prior cases.; The power of problem reduction is in the ease with which smaller problems can be solved; establishing those smaller problems, however, can be difficult.; Frames can have default values; for example, we might assume that the 'color' slot for a 'carrot' frame has a default value of orange, but it could be changed to purple or yellow.; The retrieval phase of case-based reasoning involves retrieving a case to match the current problem.; Frames typically have multiple slots, and some slots can even refer to other frames.; Classification operates on the assumption that there exist equivalence classes, different combinations of percepts that should be classified the same way.

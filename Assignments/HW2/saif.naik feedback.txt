@@ -1,0 +1,16 @@
+Abstract should have been completed with reference to the second question / problem.
+
+While it's good to clearly list both foods that are and are not sandwiches, defining them seems superfluous and a waste of limited space.
+
+Images of food should have Figure captions with references / descriptions before showing the images.
+
+The heuristics are awfully small and hard to read.
+
+The process of incremental learning wasn't very clear, and the classification seems completely absent.
+
+For Question 2:
+Again, Figures should have captions. Their absence makes it hard to give feedback. 
+
+How does "Object: there" refer to a Character 4?
+
+Preventing tunnel vision wasn't described very clearly; you didn't have enough room left to be much clearer.

@@ -1,0 +1,15 @@
+"toast (with a topping)" wasn't in the list of potential sandwiches, just "toast".
+
+Shouldn't describe Figure 3 before showing Figure 2.
+
+At the bottom of page 3, you mentioned Figure 2 when I think you meant Table 2.
+
+The top half of Table 1 has a different set of parameters than the bottom half. Was this intentional?
+
+In the sentence that begins "All other ingredients are maybe present", I think you meant "All other ingredients may be present".
+
+For Table 2, instead of listing all possible values and bolding the ones you select, it would be better to only show the ones you select for each row, or at least make the bolding more obvious.
+
+For the case-based reasoning approach, I would think a meatball sub would be closer to a hotdog than a hamburger, because the bread is folded over the meat, not sliced with the meat put between the slices.
+
+Good job on Question 2- no notes.
